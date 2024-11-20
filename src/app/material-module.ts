@@ -25,6 +25,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   exports: [
@@ -52,7 +53,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatChipsModule,
     MatSnackBarModule,
     MatFormFieldModule,
-    MatDialogModule
+    MatDialogModule,
+    MatGridListModule
   ],
 })
 export class MaterialModule {}
